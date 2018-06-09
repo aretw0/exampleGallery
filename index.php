@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 	<base href="/exampleGallery/" />
 	<!-- Required meta tags -->
@@ -37,7 +37,7 @@
 
 	<div class="container-fluid">
 		<div class="row justify-content-center">
-			<div class="col-1">
+			<div class="col-2">
 				<h1>Gallery</h1>
 			</div>
 		</div>
@@ -60,7 +60,8 @@
 							<h5 class="card-title"><?php echo $rs->img_name; ?></h5>
 							<p class="card-text"><?php echo $rs->img_text; ?></p>
 							<a href="#" class="btn btn-primary">Editar</a>
-							<a href="#" class="btn btn-primary">Apagar</a>
+							<a href="upload/remove/?img=<?php echo $rs->img_name; ?>" class="btn btn-primary">Apagar</a>
+							<a href="upload/view/?img=<?php echo $rs->img_name; ?>" class="btn btn-primary">Visualizar</a>
 						</div>
 					</div>
 				</div>

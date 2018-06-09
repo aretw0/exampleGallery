@@ -34,8 +34,9 @@ if ( isset( $_POST[ 'bttsend' ] ) || isset( $_POST[ 'bttsendadm' ] ) ) {
 					} catch(PDOException $e) {
 						echo $e->getCode().$e->getMessage();	
 					}
-					echo "Sucesso";
-					header("refresh: 2; ../");
+					header("location: ../view/?img=$nome");
+					//echo "Sucesso";
+					//header("refresh: 2; ../view/?img=$nome");
 					exit();
 				} else {
 					echo "Falha";

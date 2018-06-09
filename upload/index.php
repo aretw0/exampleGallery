@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 	<base href="../" />
 	<!-- Required meta tags -->
@@ -37,11 +37,13 @@
 	
 	<div class="container">
 		<div class="row justify-content-center">
-			<h2>Upload De Imagens</h2>
+			<div class="col-6">
+				<h2>Upload De Imagens</h2>
+			</div>
 		</div>
 		<div class="row justify-content-center">
 			<class class="col-6">
-				<form action="./upload/function/upload.php" method="post" enctype="multipart/form-data" name="formUpload">
+				<form action="upload/function/upload.php" method="post" enctype="multipart/form-data" name="formUpload">
 					<div id="radio">
 						<label>Fazer Upload?</label>
 						<label for="Yes">Yes</label>
