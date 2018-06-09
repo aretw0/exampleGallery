@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
-
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 	<title>System Upload = Home</title>
 	<style>
 	.footer {
@@ -55,7 +55,7 @@
 				?>
 				<div class="col-lg-3 col-md-4 col-xs-6">
 					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="upload/up/<?php echo $rs->img_name; ?>" alt="Card image cap">
+						<a data-fancybox="gallery" href="upload/up/<?php echo $rs->img_name; ?>"><img class="card-img-top" src="upload/up/<?php echo $rs->img_name; ?>" alt="<?php echo $rs->img_name; ?>"></a>
 						<div class="card-body">
 							<h5 class="card-title"><?php echo $rs->img_name; ?></h5>
 							<p class="card-text"><?php echo $rs->img_text; ?></p>
@@ -79,7 +79,8 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
