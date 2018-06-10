@@ -11,7 +11,7 @@ if (isset($_GET['img'])) {
 				$del = $ConnPDO->prepare($sqlDel);
 				$del->bindValue(":img_name", $_GET['img'], PDO::PARAM_STR);
 				if ($del->execute()) {
-					unlink("../up/".$_GET['img']);
+					unlink("../upload/img/".$_GET['img']);
 					header("location: ../../");
 				} else {
 					echo "Erro ao apagar arquivo!";

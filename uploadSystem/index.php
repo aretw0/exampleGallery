@@ -9,7 +9,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 
-	<title>System Upload = Upload</title>
+	<title>System Upload - Upload</title>
 	<style>
 	.footer {
 		position: fixed;
@@ -30,7 +30,7 @@
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
 				<a class="nav-item nav-link" href="./">Home</a>
-				<a class="nav-item nav-link active" href="./upload/">Upload <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link active" href="./uploadSystem/">Upload <span class="sr-only">(current)</span></a>
 			</div>
 		</div>
 	</nav>
@@ -43,7 +43,7 @@
 		</div>
 		<div class="row justify-content-center">
 			<class class="col-6">
-				<form action="upload/function/upload.php" method="post" enctype="multipart/form-data" name="formUpload">
+				<form action="uploadSystem/upload/" method="post" enctype="multipart/form-data" name="formUpload">
 					<div id="radio">
 						<label>Fazer Upload?</label>
 						<label for="Yes">Yes</label>

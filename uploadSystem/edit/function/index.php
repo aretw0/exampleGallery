@@ -6,7 +6,7 @@ if(isset($_POST['oldNameImg']) && isset($_POST['nomeImg']) && isset($_POST['info
 		$update_Img->bindValue(':id', $_POST['idImg'], PDO::PARAM_INT);
 		$update_Img->bindValue(':img_name', $_POST['nomeImg'], PDO::PARAM_STR);
 		$update_Img->bindValue(':img_text', $_POST['infoImg'], PDO::PARAM_STR);
-		rename( "../../../upload/up/".$_POST['oldNameImg'], "../../../upload/up/".$_POST['nomeImg']);
+		rename( "../../upload/img/".$_POST['oldNameImg'], "../../upload/img/".$_POST['nomeImg']);
 		$update_Img->execute();		
 		header("location: ../../../");
 	}catch(PDOException $e) {

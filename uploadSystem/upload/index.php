@@ -19,12 +19,12 @@ if ( isset( $_POST[ 'bttsend' ] ) || isset( $_POST[ 'bttsendadm' ] ) ) {
 			}				
 			if (!isset($_POST['bttsendadm'])){					
 				$nome = strtolower($nome);
-				if (file_exists("../up/$nome")){
+				if (file_exists("../upload/img/$nome")){
 					echo $nome.", Arquivo com esse nome já existe";
 					header("refresh: 2; ../");
 					exit();
 				}
-				if (move_uploaded_file($_FILES["archive"]["tmp_name"][$f], "../up/".$nome)){
+				if (move_uploaded_file($_FILES["archive"]["tmp_name"][$f], "../upload/img/".$nome)){
 					try {
 						$InsertPDO = "INSERT INTO up_img (img_name, img_text) VALUES (:img_name, :img_text)";
 						$insertBD = $ConnPDO->prepare($InsertPDO);

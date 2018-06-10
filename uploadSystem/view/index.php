@@ -9,7 +9,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 
-	<title>System Upload = View</title>
+	<title>System Upload - View</title>
 	<style>
 	.footer {
 		position: fixed;
@@ -30,8 +30,8 @@
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
 				<a class="nav-item nav-link" href="./">Home</a>
-				<a class="nav-item nav-link" href="./upload/">Upload</a>
-				<a class="nav-item nav-link active" href="./upload/view/?img=<?php echo $_GET['img']; ?>">View <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="./uploadSystem/">Upload</a>
+				<a class="nav-item nav-link active" href="./uploadSystem/view/?img=<?php echo $_GET['img']; ?>">View <span class="sr-only">(current)</span></a>
 			</div>
 		</div>
 	</nav>
@@ -52,7 +52,7 @@
 				?>
 				<div class="row justify-content-center">
 					<div class="col-lg-3 col-md-4 col-xs-6" wfd-id="14">
-						<img class="img-fluid img-thumbnail" width="400" height="300" src="upload/up/<?php echo $_GET['img'];?>" alt="<?php echo $_GET['img'];?>">
+						<img class="img-fluid img-thumbnail" width="400" height="300" src="uploadSystem/upload/img/<?php echo $_GET['img'];?>" alt="<?php echo $_GET['img'];?>">
 					</div>
 				</div>
 				<div class="row justify-content-center">
@@ -65,7 +65,7 @@
 						<?php 
 						$protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"],0,strpos( $_SERVER["SERVER_PROTOCOL"],'/'))).'://'; 
 						?>
-						<input style="width: 100%" 	type="text" value="<?php echo $protocol.$_SERVER['HTTP_HOST']."/exampleGallery/upload/up/".$_GET['img'];?>">
+						<input style="width: 100%" 	type="text" value="<?php echo $protocol.$_SERVER['HTTP_HOST']."/exampleGallery/uploadSystem/upload/img/".$_GET['img'];?>">
 					</div>
 				</div>
 				<div class="row justify-content-center">

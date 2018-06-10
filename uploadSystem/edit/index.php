@@ -30,8 +30,8 @@
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
 				<a class="nav-item nav-link" href="./">Home</a>
-				<a class="nav-item nav-link" href="./upload/">Upload</a>
-				<a class="nav-item nav-link active" href="upload/edit/?img=<?php echo $_GET['img'];?>">Edit <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="./uploadSystem/">Upload</a>
+				<a class="nav-item nav-link active" href="uploadSystem/edit/?img=<?php echo $_GET['img'];?>">Edit <span class="sr-only">(current)</span></a>
 			</div>
 		</div>
 	</nav>
@@ -52,10 +52,10 @@
 				?>
 				<div class="row justify-content-center">
 					<div class="col-lg-3 col-md-4 col-xs-6">
-						<img class="img-fluid img-thumbnail" width="400" height="300" src="upload/up/<?php echo $rs->img_name;?>" alt="">
+						<img class="img-fluid img-thumbnail" width="400" height="300" src="uploadSystem/upload/img/<?php echo $rs->img_name;?>" alt="">
 					</div>
 				</div>
-				<form action="upload/edit/function/editFunction.php" method="POST">
+				<form action="uploadSystem/edit/function/" method="POST">
 					<div class="row justify-content-center">
 						<div class="col-lg-3 col-md-4 col-xs-6">
 							<label>Nome:</label>
