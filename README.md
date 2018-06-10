@@ -23,17 +23,17 @@ Apache 2.4
 ```
 Coloque a pasta "exampleGallery" na pasta raiz do seu servidor!
 
-para que fique da seguinte forma >> http://mydomain.com/exampleGallery/
+Para que fique da seguinte forma >> http://mydomain.com/exampleGallery/
 
 Ou
 
-se for um servidor local tem que ficar da seguinte forma >> http://localhost/exampleGallery/
+Se for um servidor local tem que ficar da seguinte forma >> http://localhost/exampleGallery/
 
 Caso saiam desse padrão, terão que ajustar os apontamentos dos arquivos
 
-importem o .sql que se encontra na pasta do projeto, no banco de dados de vocês.
+Importem o .sql que se encontra na pasta do projeto, no banco de dados de vocês.
 
-e por ultimo editem o user e a senha do arquivo "bdConnect.php" para o user e senha do seu banco de dados
+E por ultimo editem o user e a senha do arquivo "bdConnect.php" para o user e senha do seu banco de dados
 ```
 
 
@@ -46,7 +46,7 @@ e por ultimo editem o user e a senha do arquivo "bdConnect.php" para o user e se
 
 ## Contribuições
 
-pedidos de pull para nós serão analizados, e implementados caso seja uma melhoria com um padrão decente.
+Pedidos de pull para nós serão analizados, e implementados caso seja uma melhoria com um padrão decente.
 
 
 ## Autores
@@ -55,6 +55,6 @@ pedidos de pull para nós serão analizados, e implementados caso seja uma melho
 
 ## License
 
-Este projeto está licenciado sob a licença MIT
+Este projeto está licenciado sob a licença MIT - consulte a matéria na wikipedia [LICENSE.md](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT) para obter detalhes
 
 
