@@ -55,6 +55,6 @@ Pedidos de pull para nós serão analizados, e implementados caso seja uma melho
 
 ## License
 
-Este projeto está licenciado sob a licença MIT - consulte a matéria na wikipedia [LICENSE.md](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT) para obter detalhes
+Este projeto está licenciado sob a licença MIT - consulte a matéria na wikipedia [Licença MIT](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT) para obter detalhes
 
 
