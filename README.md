@@ -14,6 +14,9 @@ PHP 5.6
 ```
 MySQL 5.7
 ```
+```
+Apache 2.4
+```
 
 ### Instalando
 
@@ -41,9 +44,9 @@ e por ultimo editem o user e a senha do arquivo "bdConnect.php" para o user e se
 * [jQuery](https://jquery.com/) - jQuery
 * [fancyBox](http://fancyapps.com/) - fancyBox
 
-## Contribuindo
+## Contribuições
 
-Por favor, leia [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) para detalhes sobre o nosso código de conduta, e o processo de envio de pedidos pull para nós.
+pedidos de pull para nós serão analizados, e implementados caso seja uma melhoria com um padrão decente.
 
 
 ## Autores
@@ -52,6 +55,6 @@ Por favor, leia [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b246794029
 
 ## License
 
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes
+Este projeto está licenciado sob a licença MIT
 
 
