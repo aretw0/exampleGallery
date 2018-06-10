@@ -59,7 +59,7 @@
 						<div class="card-body">
 							<h5 class="card-title"><?php echo $rs->img_name; ?></h5>
 							<p class="card-text"><?php echo $rs->img_text; ?></p>
-							<a href="#" class="btn btn-primary">Editar</a>
+							<a href="upload/edit/?img=<?php echo $rs->id; ?>" class="btn btn-primary">Editar</a>
 							<a href="upload/remove/?img=<?php echo $rs->img_name; ?>" class="btn btn-primary">Apagar</a>
 							<a href="upload/view/?img=<?php echo $rs->img_name; ?>" class="btn btn-primary">Visualizar</a>
 						</div>
