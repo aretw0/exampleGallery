@@ -2,11 +2,6 @@
 <p>Obs.: Projeto para fins de estudo! Não coloquem o mesmo para uso aberto!</p>
 <p>Em nenhum momento tratei segurança nesse projeto!</p>
 <p>Com isso obviamente existe varias falhas de seguranças graves!</p>
-<p>Coloque a pasta "exampleGallery" na pasta raiz do seu servidor!</p>
-<p>para que fique da seguinte forma >> http://mydomain.com/exampleGallery/</p>
-<p>Ou se for localmente tem que ficar da seguinte forma >> http://localhost/exampleGallery/</p>
-<p>Caso saiam desse padrão, terão que ajustar os apontamentos dos arquivos do bootstrap</p>
-<p>.sql está na pasta do projeto.</p>
 <p>editem o user e a senha do arquivo "bdConnect.php" para o user e senha do seu banco de dados</p>
 
 
@@ -32,77 +27,41 @@ MySQL 5.7
 
 ### Instalando
 
+```
 Coloque a pasta "exampleGallery" na pasta raiz do seu servidor!
 
 para que fique da seguinte forma >> http://mydomain.com/exampleGallery/
 
-Ou se for localmente tem que ficar da seguinte forma >> http://localhost/exampleGallery/
+Ou
+
+se for um servidor local tem que ficar da seguinte forma >> http://localhost/exampleGallery/
 
 Caso saiam desse padrão, terão que ajustar os apontamentos dos arquivos
 
-```
-Give the example
-```
+importem o .sql que se encontra na pasta do projeto, no banco de dados de vocês.
 
-And repeat
-
-```
-until finished
+e por ultimo editem o user e a senha do arquivo "bdConnect.php" para o user e senha do seu banco de dados
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+## Construído Com
 
-### Break down into end to end tests
+* [Bootstrap 4.x](https://getbootstrap.com/) - Bootstrap 4.x
+* [jQuery](https://jquery.com/) - jQuery
+* [fancyBox](http://fancyapps.com/) - fancyBox
 
-Explain what these tests test and why
+## Contribuindo
 
-```
-Give an example
-```
+Por favor, leia [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) para detalhes sobre o nosso código de conduta, e o processo de envio de pedidos pull para nós.
 
-### And coding style tests
 
-Explain what these tests test and why
+## Autores
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **DerexScript** - *Initial work* - [DerexScript](https://github.com/DerexScript)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
