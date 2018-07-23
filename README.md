@@ -21,17 +21,7 @@ Apache 2.4
 ### Instalando
 
 ```
-Coloque a pasta "exampleGallery" na pasta raiz do seu servidor!
-
-Para que fique da seguinte forma >> http://mydomain.com/exampleGallery/
-
-Ou
-
-Se for um servidor local tem que ficar da seguinte forma >> http://localhost/exampleGallery/
-
-Caso saiam desse padrão, terão que ajustar os apontamentos dos arquivos
-
-Importem o .sql que se encontra na pasta do projeto, no banco de dados de vocês.
+Criem uma base de dados com o nome upload, e Importem o .sql que se encontra na pasta do projeto no banco de dados de vocês.
 
 E por ultimo editem o user e a senha do arquivo "bdConnect.php" para o user e senha do seu banco de dados
 ```
