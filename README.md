@@ -1,5 +1,7 @@
 # Link do sistema online
 http://examplegallery.rf.gd/
+Sistema online totalmente sem proteção! Favor não abusarem upando Shell, sistema apenas para fim de testes e estudos!
+
 # Título Do Projeto
 
 Sistema de upload de imagens simples, para fim de estudos!
