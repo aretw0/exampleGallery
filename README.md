@@ -1,7 +1,8 @@
 # Link do sistema online
 [ExampleGallery](http://examplegallery.rf.gd/)
 ```
-Sistema online totalmente sem proteção! Favor não abusarem upando Shell, ou usafruindo de qualquer brecha de segurança, sistema apenas para fim de testes e estudos!
+Sistema online totalmente sem proteção, Favor não abusarem upando Shell, ou usafruindo de qualquer brecha de segurança.
+Sistema apenas para fim de testes e estudos.
 ```
 
 # Título Do Projeto
