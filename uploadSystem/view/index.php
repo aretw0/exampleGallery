@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="pt-br">
 <head>
-	<base href="../../" />
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../css/bootstrap.min.css">
 
 	<title>System Upload - View</title>
 	<style>
@@ -23,15 +22,15 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="./"><img src="img/bootstrap-solid.svg" width="30" height="30" alt="Home"></a>
+		<a class="navbar-brand" href="../../"><img src="../../img/bootstrap-solid.svg" width="30" height="30" alt="Home"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
-				<a class="nav-item nav-link" href="./">Home</a>
-				<a class="nav-item nav-link" href="./uploadSystem/">Upload</a>
-				<a class="nav-item nav-link active" href="./uploadSystem/view/?img=<?php echo $_GET['img']; ?>">View <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="../../">Home</a>
+				<a class="nav-item nav-link" href="../../uploadSystem/">Upload</a>
+				<a class="nav-item nav-link active" href="../view/?img=<?php echo $_GET['img']; ?>">View <span class="sr-only">(current)</span></a>
 			</div>
 		</div>
 	</nav>
@@ -52,7 +51,7 @@
 				?>
 				<div class="row justify-content-center">
 					<div class="col-lg-3 col-md-4 col-xs-6" wfd-id="14">
-						<img class="img-fluid img-thumbnail" width="400" height="300" src="uploadSystem/upload/img/<?php echo $_GET['img'];?>" alt="<?php echo $_GET['img'];?>">
+						<img class="img-fluid img-thumbnail" width="400" height="300" src="../upload/img/<?php echo $_GET['img'];?>" alt="<?php echo $_GET['img'];?>">
 					</div>
 				</div>
 				<div class="row justify-content-center">
@@ -70,7 +69,7 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-lg-3 col-md-4 col-xs-6" wfd-id="14">
-						<a href="./"><button type="button">Voltar para Home</button></a>
+						<a href="../../"><button type="button">Voltar para Home</button></a>
 					</div>
 				</div>
 				<?php
@@ -82,7 +81,7 @@
 					</div>
 				</div>
 				<?php
-				header("refresh: 3; ../../");
+				//header("refresh: 3; ../../");
 			}
 		}catch(PDOException $e) {
 			echo $e->getCode()." ".$e->getMessage();
@@ -100,7 +99,7 @@
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="../../js/popper.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
 </body>
 </html>
